@@ -15,12 +15,13 @@ body {
 
 #left_col {
   position:fixed;
-  width:14%;
+  width:14.3%;
   height:99.3%;
   margin-top:-.13%;
-  margin-left:-.1	%;
+  margin-left:-.3%;
   text-align:center;
   border:.1em black solid;
+  background-color:black;
 }
 
 #right_col {
@@ -32,12 +33,16 @@ body {
   border:.1em green dashed;
 }
 
+#actv {
+  color:#99FF33;
+}
+
 .nav {
   width:100%; 
-  height:10em; 
+  height:13em; 
   margin:0em;
   padding:0em;
-  border:1px green dashed;
+  border:0px green dashed;
 }
 
 .nav ul {
@@ -46,7 +51,42 @@ body {
 }
 
 .nav li {
-  font-size:12px;
+  font-size:25px;
+  font-family: 'Amatic SC', cursive;
   margin-bottom:.5em;
-  padding:.2em 0em .3em .7em;
+  padding:.25em 0em 0em 2.2em;
+}
+
+.nav a {
+  text-decoration:none;
+  color:green;
+}
+
+.nav a:hover {
+  border:1px blue dashed;
+  border-radius:5px;
+  text-decoration:underlined;
+  color:#99FF33;
+  /*background-color:white;*/
+}
+
+.nav #us {
+  opacity:.3em;
+  padding:0em 0em 0em 2.2em;
+  margin:0em;
+}
+
+.nav #us ul {
+  display:inline;
+}
+
+.nav #us li {
+  font-size: 15px;
+  opacity: 1em;
+}
+
+#connect1 {
+  width:1em;
+  height:1em;
+  background-color:grey;
 }
